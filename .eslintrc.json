@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "react-app"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "prettier/prettier": ["warn", { "endOfLine": "auto" }],
+    "no-extra-boolean-cast": "warn",
+    "no-unused-vars": "warn",
+    "no-inner-declarations": "warn"
+  }
+}
